@@ -140,7 +140,7 @@ func (l *Logger) Error(messageFormat string, messageArgs ...interface{}) {
 
 // Log writes the specified message at the specified logging level to the output.
 func (l *Logger) Log(level Level, messageFormat string, messageArgs ...interface{}) {
-	if level == Off || l.level > level {
+	if level == Off || l == nil || l.level > level {
 		return
 	}
 
