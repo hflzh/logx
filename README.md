@@ -19,6 +19,12 @@ commands will automatically download the necessary dependencies.
 The online [godoc](https://godoc.org/github.com/hflzh/logx) has
 information on the usage and API references of the `logx` package.
 
+## Examples
+
+The [**examples**](https://github.com/hflzh/logx/blob/master/examples) directory
+includes examples that show how to configure a logger and write log messages at
+different levels using the `logx` package.
+
 ## Help
 
 To get help or report issues, please open an issue in the [Issues](https://github.com/hflzh/logx/issues) page.
